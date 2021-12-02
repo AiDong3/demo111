@@ -1,0 +1,37 @@
+{
+    "data": [
+      {
+        "degrees": {
+          "bachelors": {
+            "data": {
+              "type": "Bachelors Law",
+              "institution": "China University of Political Science and Law",
+              "date": "2017"
+            }
+          }
+        }
+     },
+     {
+        "degrees": {
+          "Master": {
+            "data": {
+              "type": "Master of Law",
+              "institution": "Pepperdine University",
+              "date": "2019"
+            }
+          }
+        }
+     },
+     {
+        "degrees": {
+          "Master": {
+            "data": {
+              "type": "Master of Science of Software Development",
+              "institution": "Boston University",
+              "date": " Expected 2022"
+            }
+          }
+        }
+     } 
+    ]
+  }
