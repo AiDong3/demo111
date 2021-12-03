@@ -12,8 +12,7 @@ document.getElementById("button").onclick = function (){
 }
 
 function showinfo(data){
-  document.write("Your info");
-  var containder = document.getElementById("container");
+
   var span1 = document.getElementById("span1");
   var span2 = document.getElementById("span2");
   var span3 = document.getElementById("span3");
