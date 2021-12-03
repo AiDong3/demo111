@@ -19,4 +19,6 @@ body{
 span{
     margin: 100px auto;
     padding: 10px;
+    font-size: large;
+    font-weight: 300;
 }
