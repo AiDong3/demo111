@@ -1,0 +1,22 @@
+body{
+    background: url(./img/bk.jpeg);
+    background-size: cover;
+    position: relative;
+}
+#container{
+    margin: 100px auto;
+    padding-left: 270px; 
+}
+
+#button{
+    margin: 100px auto;
+    padding: 10px;
+    background-color: rgb(146, 194, 178);
+    font-size: large;
+    font-weight: 300;
+}
+
+span{
+    margin: 100px auto;
+    padding: 10px;
+}
