@@ -16,9 +16,29 @@ body{
     font-weight: 300;
 }
 
-span{
+#span1{
     margin: 100px auto;
-    padding: 10px;
+    padding-top: 20px;
     font-size: large;
     font-weight: 300;
+    background-color: rgba(189, 180, 170, 0.521);
 }
+
+#span2{
+    margin: 100px auto;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 300;
+    background-color: rgba(189, 180, 170, 0.521);
+}
+
+#span3{
+    margin: 100px auto;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 300;
+    background-color: rgba(189, 180, 170, 0.521);
+}
+
+
+
