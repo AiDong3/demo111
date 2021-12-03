@@ -7,10 +7,10 @@ document.getElementById("button").onclick = function (){
       .then((data) =>
         document.write(
           `My first degree was a ${data.data[0].degrees.bachelors.data.type} from ${data.data[0].degrees.bachelors.data.institution}
-           in ${data.data[0].degrees.bachelors.data.date}`  + '\n'
-           + `My second degree was a ${data.data[1].degrees.Master.data.type} from ${data.data[1].degrees.Master.data.institution}
-           in ${data.data[1].degrees.Master.data.date}`  + '\n'
-           + `My third degree was a ${data.data[2].degrees.Master.data.type} from ${data.data[2].degrees.Master.data.institution}
+           in ${data.data[0].degrees.bachelors.data.date}\
+           My second degree was a ${data.data[1].degrees.Master.data.type} from ${data.data[1].degrees.Master.data.institution}
+           in ${data.data[1].degrees.Master.data.date} \
+           My third degree was a ${data.data[2].degrees.Master.data.type} from ${data.data[2].degrees.Master.data.institution}
            in ${data.data[2].degrees.Master.data.date}`
 
         )
