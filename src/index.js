@@ -12,10 +12,11 @@ document.getElementById("button").onclick = function (){
 }
 
 function showinfo(data){
+  document.write("Your info");
   var containder = document.getElementById("container");
-  var span1 = document.createElement('span');
-  var span2 = document.createElement('span');
-  var span3 = document.createElement('span');
+  var span1 = document.getElementById("span1");
+  var span2 = document.getElementById("span2");
+  var span3 = document.getElementById("span3");
 
   span1.innerText = `My first degree was a ${data.data[0].degrees.bachelors.data.type} from ${data.data[0].degrees.bachelors.data.institution}
   in ${data.data[0].degrees.bachelors.data.date}`;
@@ -25,8 +26,4 @@ function showinfo(data){
 
   span3.innerText = `My third degree was a ${data.data[2].degrees.Master.data.type} from ${data.data[2].degrees.Master.data.institution}
   in ${data.data[2].degrees.Master.data.date}`;
-
-  containder.appendChild(span1);
-  containder.appendChild(span2);
-  containder.appendChild(span3);
 }
