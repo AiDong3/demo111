@@ -15,7 +15,7 @@ document.getElementById("button").onclick = function (){
 function checkStatus(response){
   console.log(response);
   
-  alert("your response status is" + response.status);
+  alert("your response status is : " + response.status);
 
   if(response.status !== 200){
     throw "Status Error!"
