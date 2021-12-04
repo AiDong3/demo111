@@ -3,12 +3,19 @@ document.getElementById("button").onclick = function (){
     // fetch the url
     await fetch(url)
       //get your data here, and check for the response status. If it's not 200, throw an error
-      .then((response) => response.json())
-      .then((data) => showinfo(data)
-      );
+      .then( checkStatus)
+      .then((data) => showinfo(data))
+      .catch(err => console.log(err));
   }
   
   getDegrees("./src/degree.json");
+}
+function checkStatus(response){
+  console.log(response);
+  if(response.status !== 200){
+    throw "Status Error!"
+  }
+  return response.json();
 }
 
 function showinfo(data){
